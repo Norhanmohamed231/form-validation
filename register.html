@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>start login</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<style>
+    .form input{
+        height:45px;
+    }
+    
+    img{
+        border-radius: 20px;
+    }
+
+</style>
+<body>
+    <div class="container mt-5 pt-4 ">
+        <div class="row ">
+            <div class="col-md-6 ">
+                <img src="imge/FTr6d7bXrSFT15VDkA1IBYDCneBIp1OiUzlDJDxO.jpg" class="w-100 h-100">
+            </div>
+
+            <div class="col-md-6 w-100 d-flex flex-column align-items-center justify-content-center">
+                <h2>Create Account</h2>
+                <p class="text-muted">Go ahead and sign up, let everyone<br>know how awesome you are!</p>
+                <h3 class="alert  w-75  " id="message"></h3>
+                <form class="w-75 form" action="success.html" onsubmit="return formValidation()">
+                    <input type="text" class="form-control w-100 p-3  mt-3" id="user" name="username" placeholder="User Name" value="" >
+                    <input type="password" class="form-control w-100 p-3  mt-3 "id="password" name="password" placeholder="Password"value="" >
+                    <input type="email" class="form-control w-100 p-3  mt-3" id="email" name="Email" placeholder="Email" value="">
+                    <input type="password" class="form-control w-100 p-3  mt-3"id="confirm-password" name="confpass" placeholder="Confirm Password"value="" >
+                    <input type="submit" value="Create New Account" id="btn" class="btn btn-primary w-100 mt-3 ">
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="JS/jquery.slim.min.js"></script>
+    <script src="JS/popper.min.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/script.js"></script>
+</body>
+</html>
